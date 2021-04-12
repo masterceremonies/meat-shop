@@ -1,0 +1,52 @@
+@import '~normalize.css';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f2f5 !important;
+}
+
+.ReactModal__Overlay {
+  z-index: 999;
+}
+
+a {
+  color: #000;
+  text-transform: capitalize;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.modal-wrapper {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 15px;
+  position: relative;
+  outline: none;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 800px){
+  .modal-wrapper {
+    width: 100%;
+  }
+}
+
+.product-list-wrapper {
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.spinner {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
